@@ -34,4 +34,18 @@ Refer - `https://www.taniarascia.com/how-to-install-and-use-node-js-and-npm-mac-
 #To run node.js in production use pm2 to run as a service - refer `http://pm2.keymetrics.io/`
 
 
-https://dev.mysql.com/downloads/workbench/
+# Application Screens(app is combination of both https://github.com/keshrev/shopping-cart-angular and https://github.com/keshrev/shopping-cart-node.git )
+
+#"Initial screen Loading"
+![alt tag](https://github.com/keshrev/shopping-cart-screens/blob/master/Screen%20Shot%202018-05-07%20at%2007.55.50.png "Initial screen Loading")
+
+#Landing screen - Products list page
+![alt tag](https://github.com/keshrev/shopping-cart-screens/blob/master/Screen%20Shot%202018-05-07%20at%2007.56.23.png "Landing screen")
+
+![alt tag](https://github.com/keshrev/shopping-cart-screens/blob/master/Screen%20Shot%202018-05-07%20at%2007.56.28.png "Landing screen")
+
+#Products added to cart - Provided remove button on right top of ech product to remove product from cart
+![alt tag](https://github.com/keshrev/shopping-cart-screens/blob/master/Screen%20Shot%202018-05-07%20at%2007.56.47.png "Products add/remove to/from cart")
+
+# Higlinghting the cart count whencart updated 
+![alt tag](https://github.com/keshrev/shopping-cart-screens/blob/master/Screen%20Shot%202018-05-07%20at%2007.58.30.png "cart count update")
