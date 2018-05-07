@@ -1,0 +1,43 @@
+Execute the following queries
+
+-- Database: `shopping`
+--
+CREATE SCHEMA `shopping` ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `product_master`
+--
+
+
+CREATE TABLE `product_master` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(512) DEFAULT NULL,
+  `imageUrl` varchar(512) DEFAULT NULL,
+  `price` double DEFAULT NULL,
+  `status` int(3) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `name_UNIQUE` (`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Insert values to table `product_master`
+--
+
+
+INSERT INTO product_master (name,imageUrl,price) VALUES
+  ('USB Mike & Speaker', 'https://images-na.ssl-images-amazon.com/images/I/91Vh29ETipL._SX425_.jpg',150),
+  ('Ear Phones', 'https://images-na.ssl-images-amazon.com/images/I/71sTOBRrbxL._SX425_.jpg',300),
+	('Smart Watch', 'https://images-na.ssl-images-amazon.com/images/I/61fjNfSa0fL._SX425_.jpg',10000),
+	('Dream Pillows', 'https://images-na.ssl-images-amazon.com/images/I/31uzIgVilQL.__AC_SY200_.jpg',3500),
+	('Towels', 'https://images-eu.ssl-images-amazon.com/images/I/61xxo82SpnL._AC_SY200_.jpg',350),
+	('USB Charger', 'https://images-eu.ssl-images-amazon.com/images/I/41chXsalv8L._AC_SY200_.jpg',500),
+	('Water Bottles', 'https://images-eu.ssl-images-amazon.com/images/I/41-fMvJ-9zL._AC_SY200_.jpg',200),
+	('Cellphones', 'https://images-eu.ssl-images-amazon.com/images/I/51%2BLcTpqYdL._AC_SY200_.jpg',7000),
+	('Caps - Men', 'https://images-na.ssl-images-amazon.com/images/I/51Ui910NlSL.__AC_SY200_.jpg',650),
+	('Beans', 'https://images-na.ssl-images-amazon.com/images/I/41ZMOqI-YkL.__AC_SY200_.jpg',1500)
+
