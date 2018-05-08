@@ -1,8 +1,4 @@
-# Shopping cart App (Node.js, Express.js & MySql back-end application)
-
-#Developed by Keshava R 
-#Email : kesh.rev@gmail.com
-#Mobile : +919900881552
+# Simple shopping cart App (Node.js, Express.js & MySql back-end application)
 
 #Tech stack - Refer package.json
 
